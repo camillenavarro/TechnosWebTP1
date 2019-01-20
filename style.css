@@ -12,18 +12,21 @@ h2 {
 
 h3 {
 	font-family: Arial black;
-	margin-left: 50px;
 	font-size: 24px;
 }
 
 h4 {
-	margin-left: 50px;
+	margin-left: 20px;
 	font-size: 20px;
 }
 
 table {
 	table-layout: auto;
 	width: 100%;	
+}
+
+ul {
+	font-family: Calibri;
 }
 
 .haut {
@@ -50,7 +53,7 @@ nav {
 	border-spacing: 200px;
 }
 
-li {
+.menu {
 	list-style-type: none;
 	display: inline;
 }
@@ -73,7 +76,7 @@ main {
 p {
 	font-family: Calibri;
 	text-align: justify;
-	margin-left: 70px;
+	margin-left: 30px;
 }
 
 td {
@@ -84,11 +87,6 @@ td {
 .icone {
 	width: 20px;
 	height: 20px;
-}
-
-.competences {
-	font-family: Calibri;
-	margin-left: 100px;
 }
 
 form {
@@ -115,4 +113,24 @@ form {
     margin-left: 200%;
 
   }
+}
+
+.cache {
+	width: 500px; 
+	height: 150px; 
+}
+
+.description {
+	background-color: whitesmoke; 
+	width: 500px; 
+	height: 150px; 
+	padding-top: 10px;
+	padding-left: 1px;
+	padding-right: 30px;
+	opacity: 0; 
+}
+
+.description:hover {
+	opacity: 1; 
+	transition: 0.4s; 
 }
