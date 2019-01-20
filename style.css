@@ -11,8 +11,14 @@ h2 {
 }
 
 h3 {
+	font-family: Arial black;
 	margin-left: 50px;
 	font-size: 24px;
+}
+
+h4 {
+	margin-left: 50px;
+	font-size: 20px;
 }
 
 table {
@@ -25,7 +31,7 @@ table {
 }
 
 .photo {
-	margin-right: 200 px;
+	margin-top: 15px;
 	width: 100px;
 	height: 100px;
 	box-shadow: 5px 5px 5px grey;
@@ -63,9 +69,29 @@ main {
 p {
 	font-family: Calibri;
 	text-align: justify;
+	margin-left: 70px;
+}
+
+td {
+	 vertical-align: top;
+	 font-family: Calibri;
 }
 
 .icone {
 	width: 20px;
 	height: 20px;
+}
+
+.competences {
+	font-family: Calibri;
+	margin-left: 100px;
+}
+
+form {
+	margin-left: 100px;
+	font-size: 17px;
+}
+
+.interet {
+	margin-left: 70px;
 }
