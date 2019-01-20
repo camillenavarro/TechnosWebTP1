@@ -1,0 +1,71 @@
+﻿h1 {
+	text-align: center;
+	font-family: Verdana;
+	font-size: 32px;
+}
+h2 {
+	text-align: center;
+	font-family: Bookman old style;
+	font-size: 26px;
+	color: #303030;
+}
+
+h3 {
+	margin-left: 50px;
+	font-size: 24px;
+}
+
+table {
+	table-layout: auto;
+	width: 100%;	
+}
+
+.haut {
+	background: gainsboro;
+}
+
+.photo {
+	margin-right: 200 px;
+	width: 100px;
+	height: 100px;
+	box-shadow: 5px 5px 5px grey;
+	border-radius: 10px;
+	align: right;
+}
+
+nav {
+	
+	font-size: 32px;
+	text-align: center;
+	border-spacing: 200px;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+}
+
+li a {
+	color: grey;
+	text-decoration: none;
+	padding: 8px 50px;
+}
+
+a:hover {
+	font-size: 36px;
+}
+
+main {
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+p {
+	font-family: Calibri;
+	text-align: justify;
+}
+
+.icone {
+	width: 20px;
+	height: 20px;
+}
