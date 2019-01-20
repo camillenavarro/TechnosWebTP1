@@ -39,6 +39,10 @@ table {
 	align: right;
 }
 
+header {
+	background: whitesmoke;
+}
+
 nav {
 	
 	font-size: 32px;
@@ -92,6 +96,23 @@ form {
 	font-size: 17px;
 }
 
-.interet {
-	margin-left: 70px;
+.animation {
+	width: 250px;
+	height: 250px;
+	animation-name: slide;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-delay: 2s;
+}
+
+@keyframes slide {
+  from {
+    margin-left: 0%;
+
+  }
+
+  to {
+    margin-left: 200%;
+
+  }
 }
